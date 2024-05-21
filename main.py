@@ -108,7 +108,7 @@ class DiseasePrediction:
                                                   criterion=self.config['model']['gradient_boost']['criterion'])
         return self.clf
 
-    # ML Model
+    # ML Modellll
     def train_model(self):
         # Get the Data
         X_train, y_train, X_val, y_val = self._train_val_split()
